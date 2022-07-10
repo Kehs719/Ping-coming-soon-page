@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <script src="https://kit.fontawesome.com/a09529f5b7.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <img class="logo"src="./images/logo.svg" alt="Logo Ping">
+    <h1>We are launching <span>soon!</span></h1>
+    <p class="subscribe">Subscribe and get notified</p>
+    <div class="form">
+      <div class="input">
+        <input type="text"id="email" placeholder="Your email adress...">
+        <p id="error-text"class="error-text">Please provide a valid email adress</p>
+      </div>
+      <button onclick="validateEmail()">Notify Me</button>
+    </div>
+    <img class="dashboard-img"src="./images/illustration-dashboard.png" alt="Illustration dashboard">
+    <div class="social">
+      <span class="social-media"><i class="fa-brands fa-facebook-f"></i></span>
+      <span class="social-media"><i class="fa-brands fa-twitter"></i></span>
+      <span class="social-media"><i class="fa-brands fa-instagram"></i></span>
+    </div>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
