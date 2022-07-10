@@ -156,6 +156,9 @@ h1 span{
         margin-bottom: 18.13vw;
         height:auto;
     }
+    .input{
+       Width:100%;
+    }
     .input input{
         margin-bottom: 20px;
         width:100%;
