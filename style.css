@@ -48,16 +48,18 @@ h1 span{
 }
 .form{
     display: flex;
+    justify-content: space-between;
     width:639px;
     margin-bottom: 87px;
 }
 .input{
     position: relative;
+    width:65.88%;
 }
 .input input{
     border-radius: 30px;
     border:1px solid #CFD5E5;
-    width:388px;
+    width:100%;
     height:52px;
     padding-left:30px;
     margin-right: 10px;
@@ -88,7 +90,7 @@ h1 span{
     display:block
 }
 .form button{
-    width:202px;
+    width:31.29%;
     height:56px;
     border-radius: 30px;
     background-color: var(--blue);
@@ -128,7 +130,7 @@ h1 span{
 .copyright{
     font-size: .75rem;
     color:var(--gray);
-    margin-top:25px
+    margin:25px 0 50px 0;
 }
 @media screen and (max-width:751px) {
     body{
